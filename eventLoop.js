@@ -6,7 +6,7 @@ setTimeout(() => {
 
 async function callFromWebApi() {
   console.log("inside async");
-  const repsonse = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const repsonse = await fetch("https://jsonplaceholder.typicode.com/todos/2");
   const data = await repsonse.json();
   console.log("after  async operation");
   console.log(data);
